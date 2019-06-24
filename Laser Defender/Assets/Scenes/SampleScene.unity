@@ -287,6 +287,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  padding: 0.6
+  laserPrefab: {fileID: 1453048131885248559, guid: 8688d19ba88964c479e289ca7cfef6b4,
+    type: 3}
+  projectileSpeed: 20
 --- !u!1 &1127861970
 GameObject:
   m_ObjectHideFlags: 0
