@@ -22,6 +22,7 @@ public class WaveConfig : ScriptableObject
         {
             waveWaypoints.Add(child);
         }
+            
         return waveWaypoints;
     }
 

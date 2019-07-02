@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - enemyPrefab: {fileID: 3371252066736638514, guid: bc9046d812354c44fa8bef50ac7aad33,
       type: 3}
-  - pathPrefab: {fileID: 8722220208881918711, guid: 70542037de1ca63438cefd280ab06d0b,
+  - pathPrefab: {fileID: 3100183368513735765, guid: d3845376b8ac4ac4f88a80ed656e5a62,
       type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
