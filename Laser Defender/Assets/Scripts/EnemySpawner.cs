@@ -2,25 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Spawnear enemigos
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] List<WaveConfig> waveConfigs;
     [SerializeField] int startingWave = 0;
+    [SerializeField] bool looping = false;
 
 
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
-        StartCoroutine(SpawnAllWaves());
+        do
+        {
+            yield return StartCoroutine(SpawnAllWaves());
+        }
+        while (looping);
     }
 
     private IEnumerator SpawnAllWaves()
     {
-        
         for (int waveIndex = startingWave; waveIndex < waveConfigs.Count; waveIndex++)
         {
-            var currentWave = waveConfigs[startingWave];
-            yield return StartCoroutine(SpawnAllEnemiesInWave(currentWave)); ;
+            var currentWave = waveConfigs[waveIndex];
+            yield return StartCoroutine(SpawnAllEnemiesInWave(currentWave));
         }
     }
 

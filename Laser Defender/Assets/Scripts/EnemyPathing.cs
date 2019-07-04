@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Configuración del camino que sigue el enemigo
 public class EnemyPathing : MonoBehaviour
 {
     WaveConfig waveConfig;

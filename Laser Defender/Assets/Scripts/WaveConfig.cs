@@ -4,6 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu(menuName = "Enemy Wave Config")]
 
+//Configuración de las olas de enemigos
 public class WaveConfig : ScriptableObject
 {
     [SerializeField] GameObject enemyPrefab;

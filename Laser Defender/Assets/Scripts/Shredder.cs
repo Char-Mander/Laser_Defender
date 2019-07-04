@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Muro para que desaparezcan los proyectiles
 public class Shredder : MonoBehaviour
 {
 
