@@ -512,8 +512,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -358}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 18.2, y: -395.4}
+  m_SizeDelta: {x: 343.5, y: 124.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881956675
 MonoBehaviour:
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -296.17017, y: 0, z: -296.1703, w: -64.9881}
+  m_margin: {x: -272.6118, y: 0, z: -274.7536, w: -0.7930392}
   m_textInfo:
     textComponent: {fileID: 881956676}
     characterCount: 4
@@ -1027,8 +1027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -157}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 7.5, y: -123.9}
+  m_SizeDelta: {x: 467, y: 116.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928099804
 MonoBehaviour:
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -296.17017, y: -68.59868, z: -296.1703, w: 0}
+  m_margin: {x: -313.30353, y: -0.26993552, z: -296.1703, w: -0.6088742}
   m_textInfo:
     textComponent: {fileID: 1928099804}
     characterCount: 5
@@ -1208,6 +1208,80 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &2082305046
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8173056944369972047, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_Name
+      value: Music Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401112189327571159, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534420558075341280, guid: 8d71baf9bdcf4204a9e5d9458117bb72,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.247
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d71baf9bdcf4204a9e5d9458117bb72, type: 3}
 --- !u!224 &475346575974691712 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4863483469833623213, guid: df636a5b33746f2419643d38058527b9,
