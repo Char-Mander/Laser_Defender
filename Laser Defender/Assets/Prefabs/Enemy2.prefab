@@ -109,6 +109,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  deathSFX: {fileID: 8300000, guid: 65c83525fdfecd149abb89e198af5764, type: 3}
+  deathSoundVolume: 0.807
+  shootSound: {fileID: 8300000, guid: b6a81803e4510b64e86e16d01dde959f, type: 3}
+  shootSoundVolume: 0.486
   shotCounter: 0
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 1
