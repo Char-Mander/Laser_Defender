@@ -13,7 +13,6 @@ public class EnemyPathing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("En el EnemyPathing.cs, el waveConfig: " + waveConfig.name);
         waypoints = waveConfig.GetWaypoints();
         transform.position = waypoints[waypointIndex].transform.position;  
     }
